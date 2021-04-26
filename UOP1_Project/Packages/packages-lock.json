@@ -1,5 +1,21 @@
 {
   "dependencies": {
+    "com.needle.editorpatching": {
+      "version": "file:../../../../../../package",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.needle.selective-profiling": {
+      "version": "file:../../../../package",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.needle.editorpatching": "1.2.0-exp",
+        "com.unity.nuget.mono-cecil": "1.10.1-preview.1",
+        "com.unity.code-analysis": "0.1.2-preview"
+      }
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
@@ -42,6 +58,13 @@
     "com.unity.cinemachine": {
       "version": "2.6.4",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.code-analysis": {
+      "version": "0.1.2-preview",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -101,6 +124,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.10.1-preview.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.polybrush": {
       "version": "1.0.2",
       "depth": 0,
@@ -138,7 +168,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "10.3.2",
+      "version": "10.4.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -147,13 +177,13 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.universal": {
-      "version": "10.3.2",
+      "version": "10.4.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.1.0",
-        "com.unity.render-pipelines.core": "10.3.2",
-        "com.unity.shadergraph": "10.3.2"
+        "com.unity.render-pipelines.core": "10.4.0",
+        "com.unity.shadergraph": "10.4.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -179,17 +209,17 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "10.3.2",
+      "version": "10.4.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.core": "10.3.2",
+        "com.unity.render-pipelines.core": "10.4.0",
         "com.unity.searcher": "4.3.1"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.22",
+      "version": "1.1.24",
       "depth": 1,
       "source": "registry",
       "dependencies": {
